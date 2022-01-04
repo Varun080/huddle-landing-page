@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+:root {
+  --pink: hsl(322, 100%, 66%);
+  --light-pink: hsl(321, 100%, 78%);
+  --light-red: hsl(0, 100%, 63%);
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --very-pale-blue: hsl(207, 100%, 98%);
+  --font-family-OS: "Open Sans", sans-serif;
+  /* 400(paragraph),600(button),700(stats) --body*/
+  --font-family-POP: "Poppins", sans-serif;
+  /* 700 -- headingd*/
+}
+body {
+  font-size: 63%;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  color: var(--very-dark-cyan);
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 2.8rem;
+
+  width: 95%;
+  /* border: 2px solid red; */
+}
+.logo-image {
+  width: 12rem;
+  fill: #111;
+}
+.try-it {
+  width: 8rem;
+  background-color: white;
+  border: 1px solid var(--pink);
+  color: var(--pink);
+  border-radius: 25px;
+  font-family: var(--font-family-OS);
+  font-size: 1rem;
+  font-weight: 600;
+  /* height: 2.5rem; */
+}
+.try-it:hover {
+  cursor: pointer;
+  border: 1px solid var(--light-pink);
+  color: var(--light-pink);
+}
+/* introduction area */
+.introduction-area {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text-area {
+  margin-top: 9rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: var(--font-family-POP);
+  font-size: 3rem;
+  font-weight: 700;
+}
+.pera {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 1rem 2rem;
+  width: 35rem;
+  font-family: var(--font-family-OS);
+}
+.start {
+  margin: 2.3rem 2rem;
+  width: 24rem;
+  border-radius: 4rem;
+  font-size: 1.2rem;
+  background-color: var(--pink);
+  line-height: 5rem;
+  box-shadow: 1px 7px 10px 0px #c5c1c1;
+  border: 0px;
+  color: white;
+  font-family: var(--font-family-OS);
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+.start:hover {
+  cursor: pointer;
+  background-color: var(--light-pink);
+}
+.mockups-image {
+  margin: 4rem 0;
+  width: 100%;
+}
+
+/* stats-area */
+.stats-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  /* border: 2px solid red; */
+  width: 70%;
+}
+.icon {
+  width: 2.52rem;
+}
+.stats-nums {
+  font-family: var(--font-family-OS);
+  font-size: 5.6rem;
+  font-weight: 700;
+}
+.stats-capt {
+  font-family: var(--font-family-OS);
+  font-size: 1.51rem;
+  font-weight: 600;
+  color: #afb5bb;
+  text-align: center;
+}
+
+/* grow together */
+.grow-togetheer::before {
+}
+.grow-together {
+  display: flex;
+  background-color: var(--very-pale-blue);
+  margin: 5rem 0;
+}
+.grow-togetheer::after {
+}
+.text-block {
+  margin: 0 3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.text-block h2 {
+  font-family: var(--font-family-POP);
+  margin-bottom: 1.3rem;
+  font-size: 2.43rem;
+  color: hsl(192deg 100% 9%);
+}
+.text-block p {
+  font-family: var(--font-family-OS);
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.image-area {
+  width: 100%;
+  margin: 0 3rem;
+  overflow: hidden;
+}
+.image-area img {
+  width: 100%;
+}
