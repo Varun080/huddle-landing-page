@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/Varun080/huddle-landing-page.git)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://github.com/Varun080/huddle-landing-page.git){:target="_blank"}
+- [Live Site URL](https://huddle-landing-page-01.netlify.app/){:target="_blank"}
 
 ## My process
 
@@ -44,4 +44,4 @@ Users should be able to:
 ## Author
 
 - Website - [Varun080](https://github.com/Varun080)
-- Frontend Mentor - [@Varun080](https://www.frontendmentor.io/profile/Varun080)
+- Frontend Mentor - [@Varun080](https://www.frontendmentor.io/profile/Varun080){:target="_blank"}
